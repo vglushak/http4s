@@ -260,6 +260,7 @@ object Http4sPlugin extends AutoPlugin {
     val netty = "4.1.53.Final"
     val okhttp = "4.9.0"
     val parboiledHttp4s = "2.0.1"
+    val parsley = "1.5.0-M2"
     val playJson = "2.9.1"
     val prometheusClient = "0.8.1"
     val quasiquotes = "2.1.0"
@@ -322,6 +323,7 @@ object Http4sPlugin extends AutoPlugin {
   lazy val nettyHandler                     = "io.netty"               %  "netty-handler"             % V.netty
   lazy val nettyResolverDns                 = "io.netty"               %  "netty-resolver-dns"        % V.netty
   lazy val okhttp                           = "com.squareup.okhttp3"   %  "okhttp"                    % V.okhttp
+  lazy val parsley                          = "org.http4s"             %% "parsley"                   % V.parsley
   lazy val playJson                         = "com.typesafe.play"      %% "play-json"                 % V.playJson
   lazy val prometheusClient                 = "io.prometheus"          %  "simpleclient"              % V.prometheusClient
   lazy val prometheusCommon                 = "io.prometheus"          %  "simpleclient_common"       % V.prometheusClient

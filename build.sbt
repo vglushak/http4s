@@ -82,6 +82,7 @@ lazy val core = libraryProject("core")
       fs2Io,
       log4s,
       parboiled,
+      parsley,
       scalaReflect(scalaVersion.value) % Provided,
       vault,
     ),
